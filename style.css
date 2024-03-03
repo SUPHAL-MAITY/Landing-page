@@ -116,11 +116,12 @@ opacity: 1.2;
 .header-mid-list{
   display: flex;
   flex-direction: row;
+  flex-wrap:wrap;
   list-style: none;
   justify-content: center;
   padding: 6px 6px;
   
-  overflow:hidden;
+  /* overflow:hidden; */
   
 }
 
@@ -130,6 +131,7 @@ opacity: 1.2;
 }
 
 .mid-para{
+  font-family: mr_alex;
   display: flex;
   flex-direction:row;
   flex-wrap:wrap;
@@ -379,13 +381,14 @@ main {
 
 
 
- footer {
+ .footer {
     background-color: #063514;
     border:2px solid blue;
     color: #fff;
     text-align: center;
-    padding: 20px 0;
+    padding:  0;
     height:500px;
+   
 
    .foot-up{
      display:flex;
